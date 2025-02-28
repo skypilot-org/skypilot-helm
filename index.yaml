@@ -2,8 +2,23 @@ apiVersion: v1
 entries:
   skypilot-nightly:
   - apiVersion: v2
+    appVersion: 1.0.0.dev20250228
+    created: "2025-02-28T11:01:00.330293679Z"
+    dependencies:
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 4.11.3
+    description: A Helm chart for deploying SkyPilot API server on Kubernetes
+    digest: 1560a10b0a8e597e789d3790883910e969c7b187ce06278e31b1211dae796bdf
+    name: skypilot-nightly
+    type: application
+    urls:
+    - https://helm.skypilot.co/skypilot-nightly-1.0.0-dev.20250228.tgz
+    version: 1.0.0-dev.20250228
+  - apiVersion: v2
     appVersion: 1.0.0.dev20250227
-    created: "2025-02-27T11:02:34.376459582Z"
+    created: "2025-02-28T11:01:00.325811427Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -18,7 +33,7 @@ entries:
     version: 1.0.0-dev.20250227
   - apiVersion: v2
     appVersion: 1.0.0.dev20250226
-    created: "2025-02-27T11:02:34.371818156Z"
+    created: "2025-02-28T11:01:00.322019502Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -33,7 +48,7 @@ entries:
     version: 1.0.0-dev.20250226
   - apiVersion: v2
     appVersion: 1.0.0.dev20250225
-    created: "2025-02-27T11:02:34.368184028Z"
+    created: "2025-02-28T11:01:00.317529566Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -48,7 +63,7 @@ entries:
     version: 1.0.0-dev.20250225
   - apiVersion: v2
     appVersion: 1.0.0.dev20250224
-    created: "2025-02-27T11:02:34.363827204Z"
+    created: "2025-02-28T11:01:00.313832298Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -63,7 +78,7 @@ entries:
     version: 1.0.0-dev.20250224
   - apiVersion: v2
     appVersion: 1.0.0.dev20250223
-    created: "2025-02-27T11:02:34.360102166Z"
+    created: "2025-02-28T11:01:00.309360936Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -78,7 +93,7 @@ entries:
     version: 1.0.0-dev.20250223
   - apiVersion: v2
     appVersion: 1.0.0.dev20250222
-    created: "2025-02-27T11:02:34.355636717Z"
+    created: "2025-02-28T11:01:00.305654591Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -93,7 +108,7 @@ entries:
     version: 1.0.0-dev.20250222
   - apiVersion: v2
     appVersion: 1.0.0.dev20250221
-    created: "2025-02-27T11:02:34.351931646Z"
+    created: "2025-02-28T11:01:00.301150495Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -108,7 +123,7 @@ entries:
     version: 1.0.0-dev.20250221
   - apiVersion: v2
     appVersion: 1.0.0.dev20250220
-    created: "2025-02-27T11:02:34.347391862Z"
+    created: "2025-02-28T11:01:00.297434532Z"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -122,7 +137,7 @@ entries:
     version: 1.0.0-dev.20250220
   - apiVersion: v2
     appVersion: 1.0.0.dev20250219
-    created: "2025-02-27T11:02:34.343688935Z"
+    created: "2025-02-28T11:01:00.292916428Z"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -136,7 +151,7 @@ entries:
     version: 1.0.0-dev.20250219
   - apiVersion: v2
     appVersion: 1.0.0.dev20250218
-    created: "2025-02-27T11:02:34.338964113Z"
+    created: "2025-02-28T11:01:00.289116757Z"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -148,4 +163,4 @@ entries:
     urls:
     - https://helm.skypilot.co/skypilot-nightly-1.0.0-dev.20250218.tgz
     version: 1.0.0-dev.20250218
-generated: "2025-02-27T11:02:34.334963812Z"
+generated: "2025-02-28T11:01:00.284004182Z"
