@@ -2,8 +2,23 @@ apiVersion: v1
 entries:
   skypilot-nightly:
   - apiVersion: v2
+    appVersion: 1.0.0.dev20250301
+    created: "2025-03-01T11:25:05.45265037Z"
+    dependencies:
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 4.11.3
+    description: A Helm chart for deploying SkyPilot API server on Kubernetes
+    digest: 377a1d220776b46128fb26141de5014cc22f9e9164e028c0e8daa50cd0a08177
+    name: skypilot-nightly
+    type: application
+    urls:
+    - https://helm.skypilot.co/skypilot-nightly-1.0.0-dev.20250301.tgz
+    version: 1.0.0-dev.20250301
+  - apiVersion: v2
     appVersion: 1.0.0.dev20250228
-    created: "2025-03-01T00:01:02.241081057Z"
+    created: "2025-03-01T11:25:05.448149267Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -18,7 +33,7 @@ entries:
     version: 1.0.0-dev.20250228
   - apiVersion: v2
     appVersion: 1.0.0.dev20250227
-    created: "2025-03-01T00:01:02.23740615Z"
+    created: "2025-03-01T11:25:05.444481488Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -33,7 +48,7 @@ entries:
     version: 1.0.0-dev.20250227
   - apiVersion: v2
     appVersion: 1.0.0.dev20250226
-    created: "2025-03-01T00:01:02.232821374Z"
+    created: "2025-03-01T11:25:05.439997543Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -48,7 +63,7 @@ entries:
     version: 1.0.0-dev.20250226
   - apiVersion: v2
     appVersion: 1.0.0.dev20250225
-    created: "2025-03-01T00:01:02.229125558Z"
+    created: "2025-03-01T11:25:05.436319935Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -63,7 +78,7 @@ entries:
     version: 1.0.0-dev.20250225
   - apiVersion: v2
     appVersion: 1.0.0.dev20250224
-    created: "2025-03-01T00:01:02.224817859Z"
+    created: "2025-03-01T11:25:05.431832071Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -78,7 +93,7 @@ entries:
     version: 1.0.0-dev.20250224
   - apiVersion: v2
     appVersion: 1.0.0.dev20250223
-    created: "2025-03-01T00:01:02.22084796Z"
+    created: "2025-03-01T11:25:05.428099773Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -93,7 +108,7 @@ entries:
     version: 1.0.0-dev.20250223
   - apiVersion: v2
     appVersion: 1.0.0.dev20250222
-    created: "2025-03-01T00:01:02.216332071Z"
+    created: "2025-03-01T11:25:05.423720311Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -108,7 +123,7 @@ entries:
     version: 1.0.0-dev.20250222
   - apiVersion: v2
     appVersion: 1.0.0.dev20250221
-    created: "2025-03-01T00:01:02.212644351Z"
+    created: "2025-03-01T11:25:05.419995426Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -123,7 +138,7 @@ entries:
     version: 1.0.0-dev.20250221
   - apiVersion: v2
     appVersion: 1.0.0.dev20250220
-    created: "2025-03-01T00:01:02.207933538Z"
+    created: "2025-03-01T11:25:05.415431632Z"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -137,7 +152,7 @@ entries:
     version: 1.0.0-dev.20250220
   - apiVersion: v2
     appVersion: 1.0.0.dev20250219
-    created: "2025-03-01T00:01:02.204246047Z"
+    created: "2025-03-01T11:25:05.41174109Z"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -151,7 +166,7 @@ entries:
     version: 1.0.0-dev.20250219
   - apiVersion: v2
     appVersion: 1.0.0.dev20250218
-    created: "2025-03-01T00:01:02.199604913Z"
+    created: "2025-03-01T11:25:05.4072282Z"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -163,4 +178,4 @@ entries:
     urls:
     - https://helm.skypilot.co/skypilot-nightly-1.0.0-dev.20250218.tgz
     version: 1.0.0-dev.20250218
-generated: "2025-03-01T00:01:02.195527434Z"
+generated: "2025-03-01T11:25:05.403232076Z"
