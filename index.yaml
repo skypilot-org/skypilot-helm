@@ -3,7 +3,7 @@ entries:
   skypilot-nightly:
   - apiVersion: v2
     appVersion: 1.0.0.dev2025022801
-    created: "2025-02-28T16:55:53.711029566Z"
+    created: "2025-03-01T00:01:02.245897357Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -18,14 +18,14 @@ entries:
     version: 1.0.0-dev.2025022801
   - apiVersion: v2
     appVersion: 1.0.0.dev20250228
-    created: "2025-02-28T16:55:53.707319322Z"
+    created: "2025-03-01T00:01:02.241081057Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
       version: 4.11.3
     description: A Helm chart for deploying SkyPilot API server on Kubernetes
-    digest: 64b50cb3eb950a21606efc49f05f725d9942dfdbeeed5ff2d319ea4cb68e97aa
+    digest: fc56bcf50db99ece575134fd9fd09af94c6d9dcde6d8d820a48dc13716c0d3fb
     name: skypilot-nightly
     type: application
     urls:
@@ -33,7 +33,7 @@ entries:
     version: 1.0.0-dev.20250228
   - apiVersion: v2
     appVersion: 1.0.0.dev20250227
-    created: "2025-02-28T16:55:53.702786818Z"
+    created: "2025-03-01T00:01:02.23740615Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -48,7 +48,7 @@ entries:
     version: 1.0.0-dev.20250227
   - apiVersion: v2
     appVersion: 1.0.0.dev20250226
-    created: "2025-02-28T16:55:53.699097833Z"
+    created: "2025-03-01T00:01:02.232821374Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -63,7 +63,7 @@ entries:
     version: 1.0.0-dev.20250226
   - apiVersion: v2
     appVersion: 1.0.0.dev20250225
-    created: "2025-02-28T16:55:53.694707711Z"
+    created: "2025-03-01T00:01:02.229125558Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -78,7 +78,7 @@ entries:
     version: 1.0.0-dev.20250225
   - apiVersion: v2
     appVersion: 1.0.0.dev20250224
-    created: "2025-02-28T16:55:53.691007446Z"
+    created: "2025-03-01T00:01:02.224817859Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -93,7 +93,7 @@ entries:
     version: 1.0.0-dev.20250224
   - apiVersion: v2
     appVersion: 1.0.0.dev20250223
-    created: "2025-02-28T16:55:53.686594457Z"
+    created: "2025-03-01T00:01:02.22084796Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -108,7 +108,7 @@ entries:
     version: 1.0.0-dev.20250223
   - apiVersion: v2
     appVersion: 1.0.0.dev20250222
-    created: "2025-02-28T16:55:53.682790509Z"
+    created: "2025-03-01T00:01:02.216332071Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -123,7 +123,7 @@ entries:
     version: 1.0.0-dev.20250222
   - apiVersion: v2
     appVersion: 1.0.0.dev20250221
-    created: "2025-02-28T16:55:53.678262102Z"
+    created: "2025-03-01T00:01:02.212644351Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -138,7 +138,7 @@ entries:
     version: 1.0.0-dev.20250221
   - apiVersion: v2
     appVersion: 1.0.0.dev20250220
-    created: "2025-02-28T16:55:53.674514047Z"
+    created: "2025-03-01T00:01:02.207933538Z"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -152,7 +152,7 @@ entries:
     version: 1.0.0-dev.20250220
   - apiVersion: v2
     appVersion: 1.0.0.dev20250219
-    created: "2025-02-28T16:55:53.669895218Z"
+    created: "2025-03-01T00:01:02.204246047Z"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -166,7 +166,7 @@ entries:
     version: 1.0.0-dev.20250219
   - apiVersion: v2
     appVersion: 1.0.0.dev20250218
-    created: "2025-02-28T16:55:53.665680813Z"
+    created: "2025-03-01T00:01:02.199604913Z"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -178,4 +178,4 @@ entries:
     urls:
     - https://helm.skypilot.co/skypilot-nightly-1.0.0-dev.20250218.tgz
     version: 1.0.0-dev.20250218
-generated: "2025-02-28T16:55:53.660633384Z"
+generated: "2025-03-01T00:01:02.195527434Z"
