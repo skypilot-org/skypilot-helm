@@ -3,7 +3,7 @@ entries:
   skypilot:
   - apiVersion: v2
     appVersion: 0.10.0
-    created: "2025-07-17T11:50:39.332834694Z"
+    created: "2025-07-18T10:17:51.605547756Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -26,7 +26,7 @@ entries:
     version: 0.10.0
   - apiVersion: v2
     appVersion: 0.9.3
-    created: "2025-07-17T11:50:39.336776817Z"
+    created: "2025-07-18T10:17:51.609435529Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -41,8 +41,31 @@ entries:
     version: 0.9.3
   skypilot-nightly:
   - apiVersion: v2
+    appVersion: 1.0.0.dev20250718
+    created: "2025-07-18T10:17:52.350377681Z"
+    dependencies:
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 4.11.3
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 27.20.0
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 9.2.2
+    description: A Helm chart for deploying SkyPilot API server on Kubernetes
+    digest: e2e5e45aab06d8c59da7a357a82f9fa0ab935c6cd0be42dd939baaa87ed770e2
+    name: skypilot-nightly
+    type: application
+    urls:
+    - https://helm.skypilot.co/skypilot-nightly-1.0.0-dev.20250718.tgz
+    version: 1.0.0-dev.20250718
+  - apiVersion: v2
     appVersion: 1.0.0.dev20250717
-    created: "2025-07-17T11:50:40.084857897Z"
+    created: "2025-07-18T10:17:52.334998358Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -65,7 +88,7 @@ entries:
     version: 1.0.0-dev.20250717
   - apiVersion: v2
     appVersion: 1.0.0.dev20250716
-    created: "2025-07-17T11:50:40.070158374Z"
+    created: "2025-07-18T10:17:52.319939016Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -88,7 +111,7 @@ entries:
     version: 1.0.0-dev.20250716
   - apiVersion: v2
     appVersion: 1.0.0.dev20250715
-    created: "2025-07-17T11:50:40.054166662Z"
+    created: "2025-07-18T10:17:52.304437583Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -111,7 +134,7 @@ entries:
     version: 1.0.0-dev.20250715
   - apiVersion: v2
     appVersion: 1.0.0.dev20250713
-    created: "2025-07-17T11:50:40.039026221Z"
+    created: "2025-07-18T10:17:52.289778881Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -134,7 +157,7 @@ entries:
     version: 1.0.0-dev.20250713
   - apiVersion: v2
     appVersion: 1.0.0.dev20250712
-    created: "2025-07-17T11:50:40.022791629Z"
+    created: "2025-07-18T10:17:52.274191172Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -157,7 +180,7 @@ entries:
     version: 1.0.0-dev.20250712
   - apiVersion: v2
     appVersion: 1.0.0.dev20250711
-    created: "2025-07-17T11:50:40.005426709Z"
+    created: "2025-07-18T10:17:52.259205223Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -180,7 +203,7 @@ entries:
     version: 1.0.0-dev.20250711
   - apiVersion: v2
     appVersion: 1.0.0.dev20250710
-    created: "2025-07-17T11:50:39.985257931Z"
+    created: "2025-07-18T10:17:52.244117965Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -203,7 +226,7 @@ entries:
     version: 1.0.0-dev.20250710
   - apiVersion: v2
     appVersion: 1.0.0.dev20250709
-    created: "2025-07-17T11:50:39.963671971Z"
+    created: "2025-07-18T10:17:52.229599895Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -226,7 +249,7 @@ entries:
     version: 1.0.0-dev.20250709
   - apiVersion: v2
     appVersion: 1.0.0.dev20250708
-    created: "2025-07-17T11:50:39.949027504Z"
+    created: "2025-07-18T10:17:52.215180726Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -249,7 +272,7 @@ entries:
     version: 1.0.0-dev.20250708
   - apiVersion: v2
     appVersion: 1.0.0.dev20250707
-    created: "2025-07-17T11:50:39.933048254Z"
+    created: "2025-07-18T10:17:52.198738891Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -272,7 +295,7 @@ entries:
     version: 1.0.0-dev.20250707
   - apiVersion: v2
     appVersion: 1.0.0.dev20250704
-    created: "2025-07-17T11:50:39.91757009Z"
+    created: "2025-07-18T10:17:52.183505629Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -295,7 +318,7 @@ entries:
     version: 1.0.0-dev.20250704
   - apiVersion: v2
     appVersion: 1.0.0.dev20250703
-    created: "2025-07-17T11:50:39.902467982Z"
+    created: "2025-07-18T10:17:52.168423091Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -318,7 +341,7 @@ entries:
     version: 1.0.0-dev.20250703
   - apiVersion: v2
     appVersion: 1.0.0.dev20250702
-    created: "2025-07-17T11:50:39.877879803Z"
+    created: "2025-07-18T10:17:52.152872007Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -341,7 +364,7 @@ entries:
     version: 1.0.0-dev.20250702
   - apiVersion: v2
     appVersion: 1.0.0.dev20250701
-    created: "2025-07-17T11:50:39.862879839Z"
+    created: "2025-07-18T10:17:52.135282433Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -364,7 +387,7 @@ entries:
     version: 1.0.0-dev.20250701
   - apiVersion: v2
     appVersion: 1.0.0.dev20250630
-    created: "2025-07-17T11:50:39.847332749Z"
+    created: "2025-07-18T10:17:52.119997532Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -387,7 +410,7 @@ entries:
     version: 1.0.0-dev.20250630
   - apiVersion: v2
     appVersion: 1.0.0.dev20250628
-    created: "2025-07-17T11:50:39.832021337Z"
+    created: "2025-07-18T10:17:52.105642619Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -410,7 +433,7 @@ entries:
     version: 1.0.0-dev.20250628
   - apiVersion: v2
     appVersion: 1.0.0.dev20250627
-    created: "2025-07-17T11:50:39.816726107Z"
+    created: "2025-07-18T10:17:52.090804186Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -433,7 +456,7 @@ entries:
     version: 1.0.0-dev.20250627
   - apiVersion: v2
     appVersion: 1.0.0.dev20250626
-    created: "2025-07-17T11:50:39.801560136Z"
+    created: "2025-07-18T10:17:52.075564924Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -456,7 +479,7 @@ entries:
     version: 1.0.0-dev.20250626
   - apiVersion: v2
     appVersion: 1.0.0.dev20250625
-    created: "2025-07-17T11:50:39.786194562Z"
+    created: "2025-07-18T10:17:52.061008462Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -479,7 +502,7 @@ entries:
     version: 1.0.0-dev.20250625
   - apiVersion: v2
     appVersion: 1.0.0.dev20250624
-    created: "2025-07-17T11:50:39.771449369Z"
+    created: "2025-07-18T10:17:52.045701127Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -502,7 +525,7 @@ entries:
     version: 1.0.0-dev.20250624
   - apiVersion: v2
     appVersion: 1.0.0.dev20250623
-    created: "2025-07-17T11:50:39.756026043Z"
+    created: "2025-07-18T10:17:52.031371628Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -517,7 +540,7 @@ entries:
     version: 1.0.0-dev.20250623
   - apiVersion: v2
     appVersion: 1.0.0.dev20250620
-    created: "2025-07-17T11:50:39.751042462Z"
+    created: "2025-07-18T10:17:52.026444854Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -532,7 +555,7 @@ entries:
     version: 1.0.0-dev.20250620
   - apiVersion: v2
     appVersion: 1.0.0.dev20250619
-    created: "2025-07-17T11:50:39.746939769Z"
+    created: "2025-07-18T10:17:52.02212845Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -547,7 +570,7 @@ entries:
     version: 1.0.0-dev.20250619
   - apiVersion: v2
     appVersion: 1.0.0.dev20250618
-    created: "2025-07-17T11:50:39.742152843Z"
+    created: "2025-07-18T10:17:52.017351655Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -562,7 +585,7 @@ entries:
     version: 1.0.0-dev.20250618
   - apiVersion: v2
     appVersion: 1.0.0.dev20250616
-    created: "2025-07-17T11:50:39.737995814Z"
+    created: "2025-07-18T10:17:52.012801364Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -577,7 +600,7 @@ entries:
     version: 1.0.0-dev.20250616
   - apiVersion: v2
     appVersion: 1.0.0.dev20250614
-    created: "2025-07-17T11:50:39.733055386Z"
+    created: "2025-07-18T10:17:52.008388952Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -592,7 +615,7 @@ entries:
     version: 1.0.0-dev.20250614
   - apiVersion: v2
     appVersion: 1.0.0.dev20250611
-    created: "2025-07-17T11:50:39.728857445Z"
+    created: "2025-07-18T10:17:52.003604242Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -607,7 +630,7 @@ entries:
     version: 1.0.0-dev.20250611
   - apiVersion: v2
     appVersion: 1.0.0.dev20250610
-    created: "2025-07-17T11:50:39.723922863Z"
+    created: "2025-07-18T10:17:51.999526774Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -622,7 +645,7 @@ entries:
     version: 1.0.0-dev.20250610
   - apiVersion: v2
     appVersion: 1.0.0.dev20250609
-    created: "2025-07-17T11:50:39.71975217Z"
+    created: "2025-07-18T10:17:51.994798117Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -637,7 +660,7 @@ entries:
     version: 1.0.0-dev.20250609
   - apiVersion: v2
     appVersion: 1.0.0.dev20250607
-    created: "2025-07-17T11:50:39.71482628Z"
+    created: "2025-07-18T10:17:51.990755324Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -652,7 +675,7 @@ entries:
     version: 1.0.0-dev.20250607
   - apiVersion: v2
     appVersion: 1.0.0.dev20250606
-    created: "2025-07-17T11:50:39.709997671Z"
+    created: "2025-07-18T10:17:51.985999516Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -667,7 +690,7 @@ entries:
     version: 1.0.0-dev.20250606
   - apiVersion: v2
     appVersion: 1.0.0.dev20250605
-    created: "2025-07-17T11:50:39.70594723Z"
+    created: "2025-07-18T10:17:51.981957245Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -682,7 +705,7 @@ entries:
     version: 1.0.0-dev.20250605
   - apiVersion: v2
     appVersion: 1.0.0.dev20250604
-    created: "2025-07-17T11:50:39.700939653Z"
+    created: "2025-07-18T10:17:51.97713993Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -697,7 +720,7 @@ entries:
     version: 1.0.0-dev.20250604
   - apiVersion: v2
     appVersion: 1.0.0.dev20250603
-    created: "2025-07-17T11:50:39.69686527Z"
+    created: "2025-07-18T10:17:51.973045271Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -712,7 +735,7 @@ entries:
     version: 1.0.0-dev.20250603
   - apiVersion: v2
     appVersion: 1.0.0.dev20250602
-    created: "2025-07-17T11:50:39.692064259Z"
+    created: "2025-07-18T10:17:51.968142719Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -727,7 +750,7 @@ entries:
     version: 1.0.0-dev.20250602
   - apiVersion: v2
     appVersion: 1.0.0.dev20250531
-    created: "2025-07-17T11:50:39.68740457Z"
+    created: "2025-07-18T10:17:51.964052758Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -742,7 +765,7 @@ entries:
     version: 1.0.0-dev.20250531
   - apiVersion: v2
     appVersion: 1.0.0.dev20250529
-    created: "2025-07-17T11:50:39.683373934Z"
+    created: "2025-07-18T10:17:51.959211791Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -757,7 +780,7 @@ entries:
     version: 1.0.0-dev.20250529
   - apiVersion: v2
     appVersion: 1.0.0.dev20250528
-    created: "2025-07-17T11:50:39.678694978Z"
+    created: "2025-07-18T10:17:51.955183816Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -772,7 +795,7 @@ entries:
     version: 1.0.0-dev.20250528
   - apiVersion: v2
     appVersion: 1.0.0.dev20250527
-    created: "2025-07-17T11:50:39.674681903Z"
+    created: "2025-07-18T10:17:51.950423332Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -787,7 +810,7 @@ entries:
     version: 1.0.0-dev.20250527
   - apiVersion: v2
     appVersion: 1.0.0.dev20250526
-    created: "2025-07-17T11:50:39.669894012Z"
+    created: "2025-07-18T10:17:51.946341216Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -802,7 +825,7 @@ entries:
     version: 1.0.0-dev.20250526
   - apiVersion: v2
     appVersion: 1.0.0.dev20250524
-    created: "2025-07-17T11:50:39.665852978Z"
+    created: "2025-07-18T10:17:51.941407265Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -817,7 +840,7 @@ entries:
     version: 1.0.0-dev.20250524
   - apiVersion: v2
     appVersion: 1.0.0.dev20250523
-    created: "2025-07-17T11:50:39.661115889Z"
+    created: "2025-07-18T10:17:51.937386894Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -832,7 +855,7 @@ entries:
     version: 1.0.0-dev.20250523
   - apiVersion: v2
     appVersion: 1.0.0.dev20250522
-    created: "2025-07-17T11:50:39.65711745Z"
+    created: "2025-07-18T10:17:51.932549053Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -847,7 +870,7 @@ entries:
     version: 1.0.0-dev.20250522
   - apiVersion: v2
     appVersion: 1.0.0.dev20250521
-    created: "2025-07-17T11:50:39.652175094Z"
+    created: "2025-07-18T10:17:51.928561023Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -862,7 +885,7 @@ entries:
     version: 1.0.0-dev.20250521
   - apiVersion: v2
     appVersion: 1.0.0.dev20250520
-    created: "2025-07-17T11:50:39.648131575Z"
+    created: "2025-07-18T10:17:51.923659929Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -877,7 +900,7 @@ entries:
     version: 1.0.0-dev.20250520
   - apiVersion: v2
     appVersion: 1.0.0.dev20250519
-    created: "2025-07-17T11:50:39.643367519Z"
+    created: "2025-07-18T10:17:51.919716041Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -892,7 +915,7 @@ entries:
     version: 1.0.0-dev.20250519
   - apiVersion: v2
     appVersion: 1.0.0.dev20250518
-    created: "2025-07-17T11:50:39.638501551Z"
+    created: "2025-07-18T10:17:51.915128038Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -907,7 +930,7 @@ entries:
     version: 1.0.0-dev.20250518
   - apiVersion: v2
     appVersion: 1.0.0.dev20250516
-    created: "2025-07-17T11:50:39.634549052Z"
+    created: "2025-07-18T10:17:51.911208486Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -922,7 +945,7 @@ entries:
     version: 1.0.0-dev.20250516
   - apiVersion: v2
     appVersion: 1.0.0.dev20250515
-    created: "2025-07-17T11:50:39.629797829Z"
+    created: "2025-07-18T10:17:51.906618868Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -937,7 +960,7 @@ entries:
     version: 1.0.0-dev.20250515
   - apiVersion: v2
     appVersion: 1.0.0.dev20250514
-    created: "2025-07-17T11:50:39.625918459Z"
+    created: "2025-07-18T10:17:51.902671774Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -952,7 +975,7 @@ entries:
     version: 1.0.0-dev.20250514
   - apiVersion: v2
     appVersion: 1.0.0.dev20250513
-    created: "2025-07-17T11:50:39.621336734Z"
+    created: "2025-07-18T10:17:51.897910338Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -967,7 +990,7 @@ entries:
     version: 1.0.0-dev.20250513
   - apiVersion: v2
     appVersion: 1.0.0.dev20250510
-    created: "2025-07-17T11:50:39.617440775Z"
+    created: "2025-07-18T10:17:51.893987218Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -982,7 +1005,7 @@ entries:
     version: 1.0.0-dev.20250510
   - apiVersion: v2
     appVersion: 1.0.0.dev20250509
-    created: "2025-07-17T11:50:39.612714779Z"
+    created: "2025-07-18T10:17:51.889101736Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -997,7 +1020,7 @@ entries:
     version: 1.0.0-dev.20250509
   - apiVersion: v2
     appVersion: 1.0.0.dev20250508
-    created: "2025-07-17T11:50:39.608809533Z"
+    created: "2025-07-18T10:17:51.885127021Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1012,7 +1035,7 @@ entries:
     version: 1.0.0-dev.20250508
   - apiVersion: v2
     appVersion: 1.0.0.dev20250507
-    created: "2025-07-17T11:50:39.604127281Z"
+    created: "2025-07-18T10:17:51.880139285Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1027,7 +1050,7 @@ entries:
     version: 1.0.0-dev.20250507
   - apiVersion: v2
     appVersion: 1.0.0.dev20250506
-    created: "2025-07-17T11:50:39.599454406Z"
+    created: "2025-07-18T10:17:51.876201899Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1042,7 +1065,7 @@ entries:
     version: 1.0.0-dev.20250506
   - apiVersion: v2
     appVersion: 1.0.0.dev20250503
-    created: "2025-07-17T11:50:39.595584262Z"
+    created: "2025-07-18T10:17:51.871220792Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1057,7 +1080,7 @@ entries:
     version: 1.0.0-dev.20250503
   - apiVersion: v2
     appVersion: 1.0.0.dev20250502
-    created: "2025-07-17T11:50:39.591043659Z"
+    created: "2025-07-18T10:17:51.867216502Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1072,7 +1095,7 @@ entries:
     version: 1.0.0-dev.20250502
   - apiVersion: v2
     appVersion: 1.0.0.dev20250501
-    created: "2025-07-17T11:50:39.587140066Z"
+    created: "2025-07-18T10:17:51.859050003Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1087,7 +1110,7 @@ entries:
     version: 1.0.0-dev.20250501
   - apiVersion: v2
     appVersion: 1.0.0.dev20250430
-    created: "2025-07-17T11:50:39.582599203Z"
+    created: "2025-07-18T10:17:51.851408408Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1102,7 +1125,7 @@ entries:
     version: 1.0.0-dev.20250430
   - apiVersion: v2
     appVersion: 1.0.0.dev20250429
-    created: "2025-07-17T11:50:39.578664876Z"
+    created: "2025-07-18T10:17:51.846997879Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1117,7 +1140,7 @@ entries:
     version: 1.0.0-dev.20250429
   - apiVersion: v2
     appVersion: 1.0.0.dev20250426
-    created: "2025-07-17T11:50:39.573946651Z"
+    created: "2025-07-18T10:17:51.842142475Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1132,7 +1155,7 @@ entries:
     version: 1.0.0-dev.20250426
   - apiVersion: v2
     appVersion: 1.0.0.dev20250425
-    created: "2025-07-17T11:50:39.570007606Z"
+    created: "2025-07-18T10:17:51.838147572Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1147,7 +1170,7 @@ entries:
     version: 1.0.0-dev.20250425
   - apiVersion: v2
     appVersion: 1.0.0.dev20250424
-    created: "2025-07-17T11:50:39.56536301Z"
+    created: "2025-07-18T10:17:51.833387514Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1162,7 +1185,7 @@ entries:
     version: 1.0.0-dev.20250424
   - apiVersion: v2
     appVersion: 1.0.0.dev20250413
-    created: "2025-07-17T11:50:39.561067836Z"
+    created: "2025-07-18T10:17:51.829546989Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1177,7 +1200,7 @@ entries:
     version: 1.0.0-dev.20250413
   - apiVersion: v2
     appVersion: 1.0.0.dev20250412
-    created: "2025-07-17T11:50:39.556815823Z"
+    created: "2025-07-18T10:17:51.82466345Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1192,7 +1215,7 @@ entries:
     version: 1.0.0-dev.20250412
   - apiVersion: v2
     appVersion: 1.0.0.dev20250411
-    created: "2025-07-17T11:50:39.552152101Z"
+    created: "2025-07-18T10:17:51.820422812Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1207,7 +1230,7 @@ entries:
     version: 1.0.0-dev.20250411
   - apiVersion: v2
     appVersion: 1.0.0.dev20250410
-    created: "2025-07-17T11:50:39.548222622Z"
+    created: "2025-07-18T10:17:51.815894072Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1222,7 +1245,7 @@ entries:
     version: 1.0.0-dev.20250410
   - apiVersion: v2
     appVersion: 1.0.0.dev20250408
-    created: "2025-07-17T11:50:39.543559898Z"
+    created: "2025-07-18T10:17:51.811663944Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1237,7 +1260,7 @@ entries:
     version: 1.0.0-dev.20250408
   - apiVersion: v2
     appVersion: 1.0.0.dev20250407
-    created: "2025-07-17T11:50:39.539609573Z"
+    created: "2025-07-18T10:17:51.807220274Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1252,7 +1275,7 @@ entries:
     version: 1.0.0-dev.20250407
   - apiVersion: v2
     appVersion: 1.0.0.dev20250406
-    created: "2025-07-17T11:50:39.535713073Z"
+    created: "2025-07-18T10:17:51.803078346Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1267,7 +1290,7 @@ entries:
     version: 1.0.0-dev.20250406
   - apiVersion: v2
     appVersion: 1.0.0.dev20250405
-    created: "2025-07-17T11:50:39.530999045Z"
+    created: "2025-07-18T10:17:51.798720242Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1282,7 +1305,7 @@ entries:
     version: 1.0.0-dev.20250405
   - apiVersion: v2
     appVersion: 1.0.0.dev20250404
-    created: "2025-07-17T11:50:39.527079013Z"
+    created: "2025-07-18T10:17:51.794266425Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1297,7 +1320,7 @@ entries:
     version: 1.0.0-dev.20250404
   - apiVersion: v2
     appVersion: 1.0.0.dev20250403
-    created: "2025-07-17T11:50:39.522148071Z"
+    created: "2025-07-18T10:17:51.790364385Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1312,7 +1335,7 @@ entries:
     version: 1.0.0-dev.20250403
   - apiVersion: v2
     appVersion: 1.0.0.dev20250402
-    created: "2025-07-17T11:50:39.518180195Z"
+    created: "2025-07-18T10:17:51.785793764Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1327,7 +1350,7 @@ entries:
     version: 1.0.0-dev.20250402
   - apiVersion: v2
     appVersion: 1.0.0.dev20250401
-    created: "2025-07-17T11:50:39.513311595Z"
+    created: "2025-07-18T10:17:51.781676282Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1342,7 +1365,7 @@ entries:
     version: 1.0.0-dev.20250401
   - apiVersion: v2
     appVersion: 1.0.0.dev20250331
-    created: "2025-07-17T11:50:39.509416538Z"
+    created: "2025-07-18T10:17:51.777065493Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1357,7 +1380,7 @@ entries:
     version: 1.0.0-dev.20250331
   - apiVersion: v2
     appVersion: 1.0.0.dev20250330
-    created: "2025-07-17T11:50:39.504373492Z"
+    created: "2025-07-18T10:17:51.773185986Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1372,7 +1395,7 @@ entries:
     version: 1.0.0-dev.20250330
   - apiVersion: v2
     appVersion: 1.0.0.dev20250329
-    created: "2025-07-17T11:50:39.500487049Z"
+    created: "2025-07-18T10:17:51.768392334Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1387,7 +1410,7 @@ entries:
     version: 1.0.0-dev.20250329
   - apiVersion: v2
     appVersion: 1.0.0.dev20250328
-    created: "2025-07-17T11:50:39.495454271Z"
+    created: "2025-07-18T10:17:51.764503889Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1402,7 +1425,7 @@ entries:
     version: 1.0.0-dev.20250328
   - apiVersion: v2
     appVersion: 1.0.0.dev20250327
-    created: "2025-07-17T11:50:39.491500427Z"
+    created: "2025-07-18T10:17:51.759804452Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1417,7 +1440,7 @@ entries:
     version: 1.0.0-dev.20250327
   - apiVersion: v2
     appVersion: 1.0.0.dev20250326
-    created: "2025-07-17T11:50:39.486425274Z"
+    created: "2025-07-18T10:17:51.75567742Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1432,7 +1455,7 @@ entries:
     version: 1.0.0-dev.20250326
   - apiVersion: v2
     appVersion: 1.0.0.dev20250325
-    created: "2025-07-17T11:50:39.47980567Z"
+    created: "2025-07-18T10:17:51.751499895Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1447,7 +1470,7 @@ entries:
     version: 1.0.0-dev.20250325
   - apiVersion: v2
     appVersion: 1.0.0.dev20250324
-    created: "2025-07-17T11:50:39.474532862Z"
+    created: "2025-07-18T10:17:51.747374028Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1462,7 +1485,7 @@ entries:
     version: 1.0.0-dev.20250324
   - apiVersion: v2
     appVersion: 1.0.0.dev20250323
-    created: "2025-07-17T11:50:39.470964183Z"
+    created: "2025-07-18T10:17:51.743508332Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1477,7 +1500,7 @@ entries:
     version: 1.0.0-dev.20250323
   - apiVersion: v2
     appVersion: 1.0.0.dev20250322
-    created: "2025-07-17T11:50:39.466636551Z"
+    created: "2025-07-18T10:17:51.739470628Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1492,7 +1515,7 @@ entries:
     version: 1.0.0-dev.20250322
   - apiVersion: v2
     appVersion: 1.0.0.dev20250321
-    created: "2025-07-17T11:50:39.463000816Z"
+    created: "2025-07-18T10:17:51.735626836Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1507,7 +1530,7 @@ entries:
     version: 1.0.0-dev.20250321
   - apiVersion: v2
     appVersion: 1.0.0.dev20250320
-    created: "2025-07-17T11:50:39.458544345Z"
+    created: "2025-07-18T10:17:51.73160366Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1522,7 +1545,7 @@ entries:
     version: 1.0.0-dev.20250320
   - apiVersion: v2
     appVersion: 1.0.0.dev20250319
-    created: "2025-07-17T11:50:39.454931383Z"
+    created: "2025-07-18T10:17:51.72761579Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1537,7 +1560,7 @@ entries:
     version: 1.0.0-dev.20250319
   - apiVersion: v2
     appVersion: 1.0.0.dev20250318
-    created: "2025-07-17T11:50:39.450305015Z"
+    created: "2025-07-18T10:17:51.723595574Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1552,7 +1575,7 @@ entries:
     version: 1.0.0-dev.20250318
   - apiVersion: v2
     appVersion: 1.0.0.dev20250317
-    created: "2025-07-17T11:50:39.446697362Z"
+    created: "2025-07-18T10:17:51.719627167Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1567,7 +1590,7 @@ entries:
     version: 1.0.0-dev.20250317
   - apiVersion: v2
     appVersion: 1.0.0.dev20250316
-    created: "2025-07-17T11:50:39.442192841Z"
+    created: "2025-07-18T10:17:51.715268253Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1582,7 +1605,7 @@ entries:
     version: 1.0.0-dev.20250316
   - apiVersion: v2
     appVersion: 1.0.0.dev20250315
-    created: "2025-07-17T11:50:39.437820705Z"
+    created: "2025-07-18T10:17:51.711581985Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1597,7 +1620,7 @@ entries:
     version: 1.0.0-dev.20250315
   - apiVersion: v2
     appVersion: 1.0.0.dev20250314
-    created: "2025-07-17T11:50:39.434216188Z"
+    created: "2025-07-18T10:17:51.70787012Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1612,7 +1635,7 @@ entries:
     version: 1.0.0-dev.20250314
   - apiVersion: v2
     appVersion: 1.0.0.dev20250313
-    created: "2025-07-17T11:50:39.430035941Z"
+    created: "2025-07-18T10:17:51.703176648Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1627,7 +1650,7 @@ entries:
     version: 1.0.0-dev.20250313
   - apiVersion: v2
     appVersion: 1.0.0.dev20250312
-    created: "2025-07-17T11:50:39.426248149Z"
+    created: "2025-07-18T10:17:51.699508424Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1642,7 +1665,7 @@ entries:
     version: 1.0.0-dev.20250312
   - apiVersion: v2
     appVersion: 1.0.0.dev20250310
-    created: "2025-07-17T11:50:39.421851621Z"
+    created: "2025-07-18T10:17:51.694998771Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1657,7 +1680,7 @@ entries:
     version: 1.0.0-dev.20250310
   - apiVersion: v2
     appVersion: 1.0.0.dev20250309
-    created: "2025-07-17T11:50:39.418272091Z"
+    created: "2025-07-18T10:17:51.691374329Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1672,7 +1695,7 @@ entries:
     version: 1.0.0-dev.20250309
   - apiVersion: v2
     appVersion: 1.0.0.dev20250308
-    created: "2025-07-17T11:50:39.413960059Z"
+    created: "2025-07-18T10:17:51.686944701Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1687,7 +1710,7 @@ entries:
     version: 1.0.0-dev.20250308
   - apiVersion: v2
     appVersion: 1.0.0.dev20250307
-    created: "2025-07-17T11:50:39.410353458Z"
+    created: "2025-07-18T10:17:51.683202349Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1702,7 +1725,7 @@ entries:
     version: 1.0.0-dev.20250307
   - apiVersion: v2
     appVersion: 1.0.0.dev20250306
-    created: "2025-07-17T11:50:39.405892071Z"
+    created: "2025-07-18T10:17:51.678663118Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1717,7 +1740,7 @@ entries:
     version: 1.0.0-dev.20250306
   - apiVersion: v2
     appVersion: 1.0.0.dev20250305
-    created: "2025-07-17T11:50:39.402280812Z"
+    created: "2025-07-18T10:17:51.675006346Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1732,7 +1755,7 @@ entries:
     version: 1.0.0-dev.20250305
   - apiVersion: v2
     appVersion: 1.0.0.dev20250304
-    created: "2025-07-17T11:50:39.397982929Z"
+    created: "2025-07-18T10:17:51.670717996Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1747,7 +1770,7 @@ entries:
     version: 1.0.0-dev.20250304
   - apiVersion: v2
     appVersion: 1.0.0.dev20250303
-    created: "2025-07-17T11:50:39.394360348Z"
+    created: "2025-07-18T10:17:51.666990131Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1762,7 +1785,7 @@ entries:
     version: 1.0.0-dev.20250303
   - apiVersion: v2
     appVersion: 1.0.0.dev20250302
-    created: "2025-07-17T11:50:39.389977914Z"
+    created: "2025-07-18T10:17:51.662506015Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1777,7 +1800,7 @@ entries:
     version: 1.0.0-dev.20250302
   - apiVersion: v2
     appVersion: 1.0.0.dev20250301
-    created: "2025-07-17T11:50:39.386329865Z"
+    created: "2025-07-18T10:17:51.658137804Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1792,7 +1815,7 @@ entries:
     version: 1.0.0-dev.20250301
   - apiVersion: v2
     appVersion: 1.0.0.dev20250228
-    created: "2025-07-17T11:50:39.381823721Z"
+    created: "2025-07-18T10:17:51.654534882Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1807,7 +1830,7 @@ entries:
     version: 1.0.0-dev.20250228
   - apiVersion: v2
     appVersion: 1.0.0.dev20250227
-    created: "2025-07-17T11:50:39.378158219Z"
+    created: "2025-07-18T10:17:51.650106261Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1822,7 +1845,7 @@ entries:
     version: 1.0.0-dev.20250227
   - apiVersion: v2
     appVersion: 1.0.0.dev20250226
-    created: "2025-07-17T11:50:39.373797041Z"
+    created: "2025-07-18T10:17:51.646362726Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1837,7 +1860,7 @@ entries:
     version: 1.0.0-dev.20250226
   - apiVersion: v2
     appVersion: 1.0.0.dev20250225
-    created: "2025-07-17T11:50:39.370008427Z"
+    created: "2025-07-18T10:17:51.642304949Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1852,7 +1875,7 @@ entries:
     version: 1.0.0-dev.20250225
   - apiVersion: v2
     appVersion: 1.0.0.dev20250224
-    created: "2025-07-17T11:50:39.365479747Z"
+    created: "2025-07-18T10:17:51.638524045Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1867,7 +1890,7 @@ entries:
     version: 1.0.0-dev.20250224
   - apiVersion: v2
     appVersion: 1.0.0.dev20250223
-    created: "2025-07-17T11:50:39.361841126Z"
+    created: "2025-07-18T10:17:51.634041985Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1882,7 +1905,7 @@ entries:
     version: 1.0.0-dev.20250223
   - apiVersion: v2
     appVersion: 1.0.0.dev20250222
-    created: "2025-07-17T11:50:39.357402322Z"
+    created: "2025-07-18T10:17:51.630443491Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1897,7 +1920,7 @@ entries:
     version: 1.0.0-dev.20250222
   - apiVersion: v2
     appVersion: 1.0.0.dev20250221
-    created: "2025-07-17T11:50:39.352982099Z"
+    created: "2025-07-18T10:17:51.626043756Z"
     dependencies:
     - condition: ingress-nginx.enabled
       name: ingress-nginx
@@ -1912,7 +1935,7 @@ entries:
     version: 1.0.0-dev.20250221
   - apiVersion: v2
     appVersion: 1.0.0.dev20250220
-    created: "2025-07-17T11:50:39.349323811Z"
+    created: "2025-07-18T10:17:51.622414214Z"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -1926,7 +1949,7 @@ entries:
     version: 1.0.0-dev.20250220
   - apiVersion: v2
     appVersion: 1.0.0.dev20250219
-    created: "2025-07-17T11:50:39.344880532Z"
+    created: "2025-07-18T10:17:51.617653799Z"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -1940,7 +1963,7 @@ entries:
     version: 1.0.0-dev.20250219
   - apiVersion: v2
     appVersion: 1.0.0.dev20250218
-    created: "2025-07-17T11:50:39.341252261Z"
+    created: "2025-07-18T10:17:51.614037001Z"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -1954,8 +1977,23 @@ entries:
     version: 1.0.0-dev.20250218
   skypilot-prometheus-server:
   - apiVersion: v2
+    appVersion: 1.0.0.dev20250718
+    created: "2025-07-18T10:17:52.443601949Z"
+    dependencies:
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 27.20.0
+    description: A Helm chart for deploying Prometheus Server
+    digest: 37b29a476e462247e6ebc1a79713e1b2990ed4878907a503f6425e8f97f4442a
+    name: skypilot-prometheus-server
+    type: application
+    urls:
+    - https://helm.skypilot.co/skypilot-prometheus-server-1.0.0-dev.20250718.tgz
+    version: 1.0.0-dev.20250718
+  - apiVersion: v2
     appVersion: 1.0.0.dev20250717
-    created: "2025-07-17T11:50:40.171457099Z"
+    created: "2025-07-18T10:17:52.436831172Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -1970,7 +2008,7 @@ entries:
     version: 1.0.0-dev.20250717
   - apiVersion: v2
     appVersion: 1.0.0.dev20250716
-    created: "2025-07-17T11:50:40.164064893Z"
+    created: "2025-07-18T10:17:52.429607872Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -1985,7 +2023,7 @@ entries:
     version: 1.0.0-dev.20250716
   - apiVersion: v2
     appVersion: 1.0.0.dev20250715
-    created: "2025-07-17T11:50:40.156851091Z"
+    created: "2025-07-18T10:17:52.422197885Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -2000,7 +2038,7 @@ entries:
     version: 1.0.0-dev.20250715
   - apiVersion: v2
     appVersion: 1.0.0.dev20250713
-    created: "2025-07-17T11:50:40.150449125Z"
+    created: "2025-07-18T10:17:52.415059176Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -2015,7 +2053,7 @@ entries:
     version: 1.0.0-dev.20250713
   - apiVersion: v2
     appVersion: 1.0.0.dev20250712
-    created: "2025-07-17T11:50:40.142959448Z"
+    created: "2025-07-18T10:17:52.408471495Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -2030,7 +2068,7 @@ entries:
     version: 1.0.0-dev.20250712
   - apiVersion: v2
     appVersion: 1.0.0.dev20250711
-    created: "2025-07-17T11:50:40.135414273Z"
+    created: "2025-07-18T10:17:52.401077436Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -2045,7 +2083,7 @@ entries:
     version: 1.0.0-dev.20250711
   - apiVersion: v2
     appVersion: 1.0.0.dev20250710
-    created: "2025-07-17T11:50:40.128233448Z"
+    created: "2025-07-18T10:17:52.393733765Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -2060,7 +2098,7 @@ entries:
     version: 1.0.0-dev.20250710
   - apiVersion: v2
     appVersion: 1.0.0.dev20250709
-    created: "2025-07-17T11:50:40.121128915Z"
+    created: "2025-07-18T10:17:52.386118106Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -2075,7 +2113,7 @@ entries:
     version: 1.0.0-dev.20250709
   - apiVersion: v2
     appVersion: 1.0.0.dev20250708
-    created: "2025-07-17T11:50:40.113690801Z"
+    created: "2025-07-18T10:17:52.37881952Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -2090,7 +2128,7 @@ entries:
     version: 1.0.0-dev.20250708
   - apiVersion: v2
     appVersion: 1.0.0.dev20250707
-    created: "2025-07-17T11:50:40.107128113Z"
+    created: "2025-07-18T10:17:52.372441711Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -2105,7 +2143,7 @@ entries:
     version: 1.0.0-dev.20250707
   - apiVersion: v2
     appVersion: 1.0.0.dev20250704
-    created: "2025-07-17T11:50:40.099678092Z"
+    created: "2025-07-18T10:17:52.364935505Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -2120,7 +2158,7 @@ entries:
     version: 1.0.0-dev.20250704
   - apiVersion: v2
     appVersion: 0.10.0
-    created: "2025-07-17T11:50:40.09217862Z"
+    created: "2025-07-18T10:17:52.356872619Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -2133,4 +2171,4 @@ entries:
     urls:
     - https://helm.skypilot.co/skypilot-prometheus-server-0.10.0.tgz
     version: 0.10.0
-generated: "2025-07-17T11:50:39.317270859Z"
+generated: "2025-07-18T10:17:51.590213121Z"
